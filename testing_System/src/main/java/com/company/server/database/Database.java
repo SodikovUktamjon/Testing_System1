@@ -1,3 +1,4 @@
+
 package com.company.server.database;
 
 import com.company.server.entity.Question;
@@ -9,8 +10,8 @@ import java.io.File;
 import java.io.IOException;
 
 public interface Database {
-
     static Question[] getQuestionsInDatabase() {
+
         ObjectMapper objectMapper = new ObjectMapper();
         File file = new File("src/main/resources/questions.json");
         try {
@@ -42,5 +43,5 @@ public interface Database {
         }
 
     }
-
+    
 }
