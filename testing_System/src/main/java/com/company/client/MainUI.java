@@ -6,8 +6,7 @@ import java.util.Scanner;
 import java.util.UUID;
 
 public class MainUI {
-    static Scanner textScanner = new Scanner();
-    static Scanner numberScanner = new Scanner();
+  
 
     public static void main(String[] args) {
     while (true){
@@ -80,4 +79,3 @@ break;
         }
     }
 
-}
