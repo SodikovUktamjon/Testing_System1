@@ -14,6 +14,7 @@ public class Question {
     private UUID id;
     private String text;
     private String correctAnswer;
+    private String subjectName;
     private List<String> variants=new ArrayList<>();
 
 }
