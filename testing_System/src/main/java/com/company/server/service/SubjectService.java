@@ -5,6 +5,6 @@ import com.company.server.util.Result;
 public class SubjectService {
 
     public Result addSubject(){
-        return null;
+        return new Result();
     }
 }
