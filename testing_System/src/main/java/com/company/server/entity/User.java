@@ -1,5 +1,6 @@
 package com.company.server.entity;
 
+import com.company.server.enums.UserType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,5 +16,6 @@ public class User {
     private String fullName;
     private String login;
     private String password;
+    private UserType userType=UserType.USER;
     private List<TestHistory> testHistory=new ArrayList<>();
 }

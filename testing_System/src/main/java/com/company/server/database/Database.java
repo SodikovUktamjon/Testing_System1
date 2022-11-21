@@ -1,3 +1,4 @@
+
 package com.company.server.database;
 
 import com.company.server.entity.Question;
@@ -42,4 +43,5 @@ public interface Database {
         }
 
     }
+    
 }
